@@ -1,6 +1,6 @@
 {
-    "name": "open-nuget",
-    "displayName": "open-nuget",
+    "name": "open-nuget-site",
+    "displayName": "open-nuget-site",
     "description": "search and view nuget site",
     "version": "0.0.1",
     "publisher": "skitoy4321",
@@ -11,13 +11,18 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.openNuGetPackageSearch",
+        "onCommand:extension.openExactNuGetPackage"
     ],
     "main": "./out/src/extension",
     "contributes": {
         "commands": [{
-            "command": "extension.sayHello",
-            "title": "Hello World"
+            "command": "extension.openNuGetPackageSearch",
+            "title": "NuGet: Search package"
+        },
+        {
+            "command": "extension.openExactNuGetPackage",
+            "title": "NuGet: Open Exact Package"
         }]
     },
     "scripts": {
