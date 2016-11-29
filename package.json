@@ -3,7 +3,7 @@
     "displayName": "open-nuget-site",
     "description": "search and view nuget site",
     "version": "0.0.1",
-    "publisher": "skitoy4321",
+    "publisher": "itn3000",
     "engines": {
         "vscode": "^1.5.0"
     },
